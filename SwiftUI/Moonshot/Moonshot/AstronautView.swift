@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct AstronautView: View {
+    let missions: [Mission] = Bundle.main.decode("missions.json")
     let astronaut: Astronaut
+    var astronautMissions = [String]()
 
     var body: some View {
         GeometryReader { geometry in
@@ -21,10 +23,35 @@ struct AstronautView: View {
 
                     Text(self.astronaut.description)
                         .padding()
+                    
+                    Text("Missions he took part of:")
+                        .font(.headline)
+                        .padding()
+                    
+                    ForEach(0..<astronautMissions.count) {mission in
+                        
+                        Text("\(astronautMissions[mission])")
+                        
+                    }
+                    
                 }
             }
         }
         .navigationBarTitle(Text(astronaut.name), displayMode: .inline)
+    }
+    
+    init(astronaut: Astronaut) {
+        
+        for mission in missions {
+            for member in mission.crew {
+                if member.name == astronaut.id {
+                    astronautMissions.append("Apollo \(mission.id)")
+                    break
+                }
+            }
+        }
+        
+        self.astronaut = astronaut
     }
 }
 

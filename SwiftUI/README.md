@@ -23,4 +23,4 @@ Implicit animations, Custom animation, Animating bindings, Explicit animations, 
 Property wrapper @ObservedObject, @EnvironmentObject, @Published, Showing views with sheet, onDelete, EditButton, UserDefaults, Codable, Property observers
 
 ## 7. Moonshot
-GeometryReader, Scrollview, NavigationLink, Hierarchical Codable data, Extension bundle, Nested struct, Generic methods,, dateDecodingStrategy, dateFormat, Merging Codable structs, layoutPriority
+GeometryReader, Scrollview, NavigationLink, Hierarchical Codable data, Extension bundle, Nested struct, Generic methods, dateDecodingStrategy, dateFormat, Merging Codable structs, layoutPriority, Initialized struct
