@@ -19,8 +19,11 @@ List, Bundle, Strings methods, onAppear
 ## 6. Animation
 Implicit animations, Custom animation, Animating bindings, Explicit animations, Animation stack, Animating gestures, Transitions, Custom transistions 
 
-## 6. iExpense
+## 7. iExpense
 Property wrapper @ObservedObject, @EnvironmentObject, @Published, Showing views with sheet, onDelete, EditButton, UserDefaults, Codable, Property observers
 
-## 7. Moonshot
+## 8. Moonshot
 GeometryReader, Scrollview, NavigationLink, Hierarchical Codable data, Extension bundle, Nested struct, Generic methods, dateDecodingStrategy, dateFormat, Merging Codable structs, layoutPriority, Initialized struct
+
+## 9. Drawing
+Path, Shape, InsettableShape, CGAffineTransform, Even-odd fills, ImagePaint, Metal, drawingGroup,
