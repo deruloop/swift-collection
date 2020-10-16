@@ -26,4 +26,4 @@ Property wrapper @ObservedObject, @EnvironmentObject, @Published, Showing views 
 GeometryReader, Scrollview, NavigationLink, Hierarchical Codable data, Extension bundle, Nested struct, Generic methods, dateDecodingStrategy, dateFormat, Merging Codable structs, layoutPriority, Initialized struct
 
 ## 9. Drawing
-Path, Shape, InsettableShape, CGAffineTransform, Even-odd fills, ImagePaint, Metal, drawingGroup,
+Path, Shape, InsettableShape, CGAffineTransform, Even-odd fills, ImagePaint, Metal, drawingGroup, Blending, blur and saturation, animatableData and AnimatablePair for shapes
