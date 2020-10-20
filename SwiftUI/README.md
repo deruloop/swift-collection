@@ -32,4 +32,4 @@ Path, Shape, InsettableShape, CGAffineTransform, Even-odd fills, ImagePaint, Met
 Codable class with publishers for url fetching and userdefaults, CodingKey, disabled() modifier, POST call on JSON API over the internet, URLSession, URLRequest, encoding and decoding
 
 ## 11. Bookworm
-Property wrapper @Binding, custom user components creation, sizeClass with @Enviromental, Anyview type erasure, 
+Property wrapper @Binding, custom user components creation, sizeClass with @Enviromental, Anyview type erasure, CoreData, managedObjectContext
