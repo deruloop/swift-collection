@@ -41,6 +41,9 @@ struct DetailView: View {
                 RatingView(rating: .constant(Int(self.book.rating)))
                     .font(.largeTitle)
 
+                Text("\(formatDate(date: book.date!))")
+                    .padding()
+                
                 Spacer()
             }
         }
@@ -56,6 +59,13 @@ struct DetailView: View {
         }) {
             Image(systemName: "trash")
         })
+    }
+    
+    func formatDate(date : Date) -> String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+
+        return formatter.string(from: date)
     }
     
     func deleteBook() {
