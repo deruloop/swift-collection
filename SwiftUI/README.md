@@ -35,4 +35,4 @@ Codable class with publishers for url fetching and userdefaults, CodingKey, disa
 Property wrapper @Binding, custom user components creation, sizeClass with @Enviromental, Anyview type erasure, CoreData, managedObjectContext
 
 ## 12. Core Data Project
-Hashable Protocol, NSManagedObject subclasses, conditional saving of NSManagedObjectContext, Core Data constraint for unique properties,
+Hashable Protocol, NSManagedObject subclasses, conditional saving of NSManagedObjectContext, Core Data constraint for unique properties, NSPredicate, Dynamically filtering @FetchRequest with and without generics, @ViewBuilder, @escaping, One-to-many relationships with Core Data
