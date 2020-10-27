@@ -38,4 +38,7 @@ Property wrapper @Binding, custom user components creation, sizeClass with @Envi
 Hashable Protocol, NSManagedObject subclasses, conditional saving of NSManagedObjectContext, Core Data constraint for unique properties, NSPredicate, Dynamically filtering @FetchRequest with and without generics, Custom @FetchRequest, @ViewBuilder, @escaping, One-to-many relationships with Core Data
 
 ## 13. Instafilter
-Custom @Binding, ActionSheet, Core Image, Wrapping a UIViewController in a SwiftUI view, coordinators, save images to the user’s photo library, declaring functions as optional variables for closure
+Custom @Binding, ActionSheet, Core Image, Wrapping a UIViewController in a SwiftUI view, coordinators, UIViewControllerRepresentable protocol, save images to the user’s photo library, declaring functions as optional variables for closure
+
+## 14. Bucket List
+Comparable Protocol, operator overloading, Equatable Protocol, FileManager and write(to:) for writing data to the documents directory, conditional view states with enums, MapKit in SwiftUI, UIViewRepresentable protocol, typealias, Communicating with a MapKit coordinator, MKPointAnnotation, reuse identifier, FaceID and TouchID implemantation
