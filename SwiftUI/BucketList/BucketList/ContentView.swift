@@ -6,45 +6,58 @@
 //
 
 import SwiftUI
+import MapKit
 import LocalAuthentication
 
 struct ContentView: View {
-    
     @State private var isUnlocked = false
+    @State private var authetincateErrors = false
+    @State private var errorTitle = ""
+    @State private var errorMessage = ""
+    
     
     var body: some View {
-        VStack {
-            if self.isUnlocked {
-                Text("Unlocked")
+        ZStack {
+            if isUnlocked {
+                MainView()
             } else {
-                Text("Locked")
+                Button("Unlock Places") {
+                    self.authenticate()
+                }
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
             }
         }
-        .onAppear(perform: authenticate)
+        .alert(isPresented: $authetincateErrors) {
+            Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
+        }
     }
     
     func authenticate() {
         let context = LAContext()
         var error: NSError?
 
-        // check whether biometric authentication is possible
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
-            // it's possible, so go ahead and use it
-            let reason = "We need to unlock your data."
+            let reason = "Please authenticate yourself to unlock your places."
 
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
-                // authentication has now completed
+
                 DispatchQueue.main.async {
                     if success {
-                        // authenticated successfully
                         self.isUnlocked = true
                     } else {
-                        // there was a problem
+                        errorTitle = "Failed to authenticate"
+                        errorMessage = "Non-matching face!"
+                        self.authetincateErrors = true
                     }
                 }
             }
         } else {
-            // no biometrics
+            errorTitle = "No authenticate feature"
+            errorMessage = "Your device doesn't support FaceID nor TouchID"
+            self.authetincateErrors = true
         }
     }
 }

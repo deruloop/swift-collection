@@ -41,4 +41,7 @@ Hashable Protocol, NSManagedObject subclasses, conditional saving of NSManagedOb
 Custom @Binding, ActionSheet, Core Image, Wrapping a UIViewController in a SwiftUI view, coordinators, UIViewControllerRepresentable protocol, save images to the user’s photo library, declaring functions as optional variables for closure
 
 ## 14. Bucket List
-Comparable Protocol, operator overloading, Equatable Protocol, FileManager and write(to:) for writing data to the documents directory, conditional view states with enums, MapKit in SwiftUI, UIViewRepresentable protocol, typealias, Communicating with a MapKit coordinator, MKPointAnnotation, reuse identifier, FaceID and TouchID implemantation
+Comparable Protocol, operator overloading, Equatable Protocol, FileManager and write(to:) for writing data to the documents directory, conditional view states with enums, MapKit in SwiftUI, UIViewRepresentable protocol, typealias, Communicating with a MapKit coordinator, MKPointAnnotation, reuse identifier, FaceID and TouchID implemantation, forcing Codable conformation on protocols, use a json as an encripted app data storage
+
+## 15. Accessibility
+accessibility modifier for VoiceOver, hiding and grouping accessibility data, accessibility value,
