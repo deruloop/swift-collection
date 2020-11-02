@@ -44,4 +44,7 @@ Custom @Binding, ActionSheet, Core Image, Wrapping a UIViewController in a Swift
 Comparable Protocol, operator overloading, Equatable Protocol, FileManager and write(to:) for writing data to the documents directory, conditional view states with enums, MapKit in SwiftUI, UIViewRepresentable protocol, typealias, Communicating with a MapKit coordinator, MKPointAnnotation, reuse identifier, FaceID and TouchID implemantation, forcing Codable conformation on protocols, use a json as an encripted app data storage
 
 ## 15. Accessibility
-accessibility modifier for VoiceOver, hiding and grouping accessibility data, accessibility value,
+accessibility modifier for VoiceOver, hiding and grouping accessibility data, accessibility value
+
+## 16. Hot Prospects
+Property wrapper @EnvironmentObject, modifiier .enviromentObject, TabView, tabItem(), data type Result, converting from data to string, using Result on URLSession, 
