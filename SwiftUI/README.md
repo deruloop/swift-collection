@@ -47,4 +47,4 @@ Comparable Protocol, operator overloading, Equatable Protocol, FileManager and w
 accessibility modifier for VoiceOver, hiding and grouping accessibility data, accessibility value
 
 ## 16. Hot Prospects
-Property wrapper @EnvironmentObject, modifiier .enviromentObject, TabView, tabItem(), data type Result, converting from data to string, using Result on URLSession, 
+Property wrapper @EnvironmentObject, modifiier .enviromentObject, TabView, tabItem(), data type Result, converting from data to string, using Result on URLSession, objectWillChange property for manual publishing, image interpolation, Context menu() for holding objects and usage, Scheduling local notification, Swift package dependencies,  
