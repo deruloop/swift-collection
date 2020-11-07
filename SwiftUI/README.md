@@ -41,10 +41,13 @@ Hashable Protocol, NSManagedObject subclasses, conditional saving of NSManagedOb
 Custom @Binding, ActionSheet, Core Image, Wrapping a UIViewController in a SwiftUI view, coordinators, UIViewControllerRepresentable protocol, save images to the user’s photo library, declaring functions as optional variables for closure
 
 ## 14. Bucket List
-Comparable Protocol, operator overloading, Equatable Protocol, FileManager and write(to:) for writing data to the documents directory, conditional view states with enums, MapKit in SwiftUI, UIViewRepresentable protocol, typealias, Communicating with a MapKit coordinator, MKPointAnnotation, reuse identifier, FaceID and TouchID implemantation, forcing Codable conformation on protocols, use a json as an encripted app data storage
+Comparable Protocol, operator overloading, Equatable Protocol, FileManager and write(to:) for writing data to the documents directory, conditional view states with enums, MapKit in SwiftUI, UIViewRepresentable protocol, typealias, Communicating with a MapKit coordinator, MKPointAnnotation, reuse identifier, FaceID and TouchID implemantation, forcing Codable conformation on protocols, use a JSON as an encripted app data storage
 
 ## 15. Accessibility
 accessibility modifier for VoiceOver, hiding and grouping accessibility data, accessibility value
 
 ## 16. Hot Prospects
-Property wrapper @EnvironmentObject, modifiier .enviromentObject, TabView, tabItem(), data type Result, converting from data to string, using Result on URLSession, objectWillChange property for manual publishing, image interpolation, Context menu() for holding objects and usage, Scheduling local notification, Swift package dependencies,  
+Property wrapper @EnvironmentObject, modifiier .enviromentObject, TabView, tabItem(), data type Result, converting from data to string, using Result on URLSession, objectWillChange property for manual publishing, image interpolation, Context menu() for holding objects and usage, Scheduling local notification, Swift package dependencies, .map array operator, .filter string operator, create Qr Code with Core Image, textContentType() modifier, fileprivate and private for strict property access
+
+## 17. Flashzilla
+.onTapGesture(count) .onLongPressure() .gesture() .highPriorityGesture() .simultaneousGesture() modifiers , gesture sequencing, Making vibrations with UINotificationFeedbackGenerator and Core Haptics, Disabling user interactivity with allowsHitTesting(), .contentShape(), Triggering events repeatedly using a timer, .onReceive() modifiier, How to be notified when your SwiftUI app moves to the background, more accessibility modifiers, 
