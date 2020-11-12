@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4A88932559B10500AD9874 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A88922559B10500AD9874 /* Card.swift */; };
+		BF4A88962559B11B00AD9874 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4A88952559B11B00AD9874 /* CardView.swift */; };
 		BF711C932556D62000A2059D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF711C922556D62000A2059D /* AppDelegate.swift */; };
 		BF711C952556D62000A2059D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF711C942556D62000A2059D /* SceneDelegate.swift */; };
 		BF711C972556D62000A2059D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF711C962556D62000A2059D /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF4A88922559B10500AD9874 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BF4A88952559B11B00AD9874 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BF711C8F2556D62000A2059D /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF711C922556D62000A2059D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF711C942556D62000A2059D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				BF711C922556D62000A2059D /* AppDelegate.swift */,
 				BF711C942556D62000A2059D /* SceneDelegate.swift */,
+				BF4A88922559B10500AD9874 /* Card.swift */,
+				BF4A88952559B11B00AD9874 /* CardView.swift */,
 				BF711C962556D62000A2059D /* ContentView.swift */,
 				BF711C982556D62200A2059D /* Assets.xcassets */,
 				BF711C9D2556D62200A2059D /* LaunchScreen.storyboard */,
@@ -148,6 +154,8 @@
 				BF711C932556D62000A2059D /* AppDelegate.swift in Sources */,
 				BF711C952556D62000A2059D /* SceneDelegate.swift in Sources */,
 				BF711C972556D62000A2059D /* ContentView.swift in Sources */,
+				BF4A88932559B10500AD9874 /* Card.swift in Sources */,
+				BF4A88962559B11B00AD9874 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
